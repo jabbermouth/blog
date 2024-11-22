@@ -2,7 +2,7 @@
 
 This article talks through the process of setting up a basic Express API using TypeScript and Yarn for package management instead of NPM.
 
-In the folder you’d like to create your project in, type the following commands. For the purpose of this project, we’ll assume the folder being used is called “api”.
+In the folder you'd like to create your project in, type the following commands. For the purpose of this project, we'll assume the folder being used is called “api”.
 
 ```powershell
 mkdir api
@@ -12,13 +12,13 @@ yarn init --yes
 
 This sets up the initial project so that additional packages including Express can be installed.
 
-Next, we’ll add the Express and DotEnv packages:
+Next, we'll add the Express and DotEnv packages:
 
 ```powershell
 yarn add express dotenv
 ```
 
-At this point, we could test things but we want a typescript app so next we’ll add the required TypeScript files as dev dependencies using `-D`:
+At this point, we could test things but we want a typescript app so next we'll add the required TypeScript files as dev dependencies using `-D`:
 
 ```powershell
 yarn add -D typescript @types/express @types/node
@@ -56,7 +56,7 @@ app.listen(port, () => {
 });
 ```
 
-To make development easier, we’ll add a few tools as dev dependencies:
+To make development easier, we'll add a few tools as dev dependencies:
 
 ```powershell
 yarn add -D concurrently nodemon

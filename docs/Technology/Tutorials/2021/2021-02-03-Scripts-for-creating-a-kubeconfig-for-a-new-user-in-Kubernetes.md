@@ -2,7 +2,7 @@
 
 This script is intended to create a kubeconfig file for a user and then give that user permissions to read pod data as well as exec to those pods in a particular namespace.
 
-Once you’ve created the file, copy it to the machine you wish to connect to the cluster form and place it in a folder called .kube and rename it to config (no extension).
+Once you've created the file, copy it to the machine you wish to connect to the cluster form and place it in a folder called .kube and rename it to config (no extension).
 
 Create a file using Nano (or your preferred editor) name user-create.sh with the following content:
 

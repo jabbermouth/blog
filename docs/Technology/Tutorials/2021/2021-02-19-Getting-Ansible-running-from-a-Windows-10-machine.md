@@ -15,7 +15,7 @@ sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt install ansible -y
 ```
 
-You can then confirm it’s installed by running the following command:
+You can then confirm it's installed by running the following command:
 
 ```bash
 ansible --version

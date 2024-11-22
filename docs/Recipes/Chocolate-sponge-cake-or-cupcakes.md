@@ -29,8 +29,8 @@
 
 1. Preheat oven to 180 (fan oven)
 2. Grease your tins using marge
-3. ‘Cream’ (beat) butter/marge and sugar together
-4. Beat your eggs then add to marge/sugar. Mix, but don’t worry about getting it smooth – just mostly combined
+3. ‘Cream' (beat) butter/marge and sugar together
+4. Beat your eggs then add to marge/sugar. Mix, but don't worry about getting it smooth – just mostly combined
 5. Add flour, cocoa powder and baking powder (no need to sift, usually) and mx together until smooth
 6. Split mixture evenly between two tins
 7. Put in oven on the same shelf, if possible, for 16 minutes. Try not to open the door during cooking

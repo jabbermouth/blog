@@ -1,8 +1,8 @@
 # Update a Blazor UI when a message is pushed to a RabbitMQ queue
 
-**Scenario:** I’ve pushed a message to RabbitMQ for a long running service and I want to be notified when it’s finished. There are several ways this could be done but the way I wanted to try, given RabbitMQ was already part of the setup, was to have a message appearing on a queue trigger a UI update whilst making use of Blazored.Toast.
+**Scenario:** I've pushed a message to RabbitMQ for a long running service and I want to be notified when it's finished. There are several ways this could be done but the way I wanted to try, given RabbitMQ was already part of the setup, was to have a message appearing on a queue trigger a UI update whilst making use of Blazored.Toast.
 
-It’s quite likely what’s discussed here will work in Blazor WebAssembly but I’ve only tried it in Blazor Server.
+It's quite likely what's discussed here will work in Blazor WebAssembly but I've only tried it in Blazor Server.
 
 The code for this project is [available in GitHub](https://github.com/jabbermouth/blazor-rabbitmq-notifications).
 
@@ -134,7 +134,7 @@ Finally, in Pages/_Layout.cshtml, add a reference to the Blazored.Toast CSS abov
 
 ## Try it out!
 
-Now go to [http://localhost:15672/#/queues](http://localhost:15672/#/queues) (log in if prompted) and notice there’s not “user-queue” queue yet. Now run the application and the new queue will appear in the admin UI. Click on it and scroll down to the “Publish message” section. Type in some text and click the “Publish message” button and quickly switch back to your app and a toast notification should be visible in the top right.
+Now go to [http://localhost:15672/#/queues](http://localhost:15672/#/queues) (log in if prompted) and notice there's not “user-queue” queue yet. Now run the application and the new queue will appear in the admin UI. Click on it and scroll down to the “Publish message” section. Type in some text and click the “Publish message” button and quickly switch back to your app and a toast notification should be visible in the top right.
 
 If the menu is obscuring the toast, add the following to the bottom of wwwroot/css/site.css:
 

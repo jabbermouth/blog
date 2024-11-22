@@ -1,8 +1,8 @@
 # Getting Mongo DB running locally in a container
 
-The following is a quick guide to getting Mongo DB up and running in a container for you to connect to. I’ve included authentication even though it’s not essential for working locally just for completeness.
+The following is a quick guide to getting Mongo DB up and running in a container for you to connect to. I've included authentication even though it's not essential for working locally just for completeness.
 
-We’ll assume you have a D drive for this example and that you want to persist your database in a folder on this drive.
+We'll assume you have a D drive for this example and that you want to persist your database in a folder on this drive.
 
 ```powershell
 d:
@@ -25,4 +25,4 @@ To get a UI up and running, you can also instantiate the following container:
 docker run --name mongo-ui -d -e ME_CONFIG_MONGODB_ADMINUSERNAME=mongoadmin -e ME_CONFIG_MONGODB_ADMINPASSWORD=OnlyForLocal123 -e ME_CONFIG_MONGODB_SERVER=host.docker.internal -p 8081:8081 --restart always mongo-express
 ```
 
-This will then be accessible via [http://localhost:8081](http://localhost:8081) once it’s started.
+This will then be accessible via [http://localhost:8081](http://localhost:8081) once it's started.

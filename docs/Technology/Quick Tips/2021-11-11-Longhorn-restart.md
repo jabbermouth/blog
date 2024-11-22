@@ -1,6 +1,6 @@
 # Longhorn Restart
 
-If your Longhorn setup gets ‘stuck’, run this script to trigger a restart of all the Longhorn pods.
+If your Longhorn setup gets ‘stuck', run this script to trigger a restart of all the Longhorn pods.
 
 ```bash
 kubectl rollout restart daemonset engine-image-ei-d4c780c6 -n longhorn-system

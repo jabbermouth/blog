@@ -1,6 +1,6 @@
 # .NET 5/6, Docker and custom NuGet server
 
-When using a custom NuGet server and you’ve added a nuget.config file to the solution, you’ll need to add the following line to the default Dockerfile build by Visual Studio to allow the container to be built.
+When using a custom NuGet server and you've added a nuget.config file to the solution, you'll need to add the following line to the default Dockerfile build by Visual Studio to allow the container to be built.
 
 ```dockerfile
 COPY ["nuget.config", "/src/"]

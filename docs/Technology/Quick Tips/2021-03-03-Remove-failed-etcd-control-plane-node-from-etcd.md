@@ -2,13 +2,13 @@
 
 If you have a control plane node fail in a cluster to the point you can no longer connect to it, this is how to remove it, including etcd, from your cluster.
 
-The first step is to delete the node itself. For these examples, we’ll assume the node is called kubernetes-cp-gone. Run the following command from a working control plane:
+The first step is to delete the node itself. For these examples, we'll assume the node is called kubernetes-cp-gone. Run the following command from a working control plane:
 
 ```bash
 kubectl delete node kubernetes-cp-gone
 ```
 
-Next we need to tidy up etcd. Firstly, we’ll tidy up the Kubernetes level configuration by running the following command:
+Next we need to tidy up etcd. Firstly, we'll tidy up the Kubernetes level configuration by running the following command:
 
 ```bash
 kubectl -n kube-system edit cm kubeadm-config

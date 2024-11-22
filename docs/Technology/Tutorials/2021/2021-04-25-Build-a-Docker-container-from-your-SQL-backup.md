@@ -59,7 +59,7 @@ DBCC SHRINKDATABASE ([MyDatabase])
 GO
 ```
 
-Note that your database will not be MyDatabase_Data and MyDatabase_Log so you will need to replace these values with your actual database file names. Note that sometimes the equivalent of MyDatabase_Data doesn’t have _Data on the end.
+Note that your database will not be MyDatabase_Data and MyDatabase_Log so you will need to replace these values with your actual database file names. Note that sometimes the equivalent of MyDatabase_Data doesn't have _Data on the end.
 
 To build the container, you then run the following command from within your folder:
 
