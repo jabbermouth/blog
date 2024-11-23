@@ -66,6 +66,8 @@ jobs:
           gh release create $tag -t $tag -n "Release $tag" --notes "Release $tag" --target main
 
       - name: Build site
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: mkdocs build
 
       - name: Upload artifact
