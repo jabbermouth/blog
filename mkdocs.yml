@@ -1,6 +1,7 @@
 site_name: Neil's Whiteboard
 copyright: Copyright &copy; 2020-2024 Neil Docherty
-
+repo_url: https://github.com/jabbermouth/blog
+edit_uri: edit/main/docs/
 
 plugins:
   - search
@@ -17,15 +18,25 @@ plugins:
           lineColor: '#F8B229'
           secondaryColor: '#006100'
           tertiaryColor: '#fff'  
-
+  - git-revision-date-localized:
+      enable_creation_date: true
+  # - git-authors
+  # - git-committers:
+  #     repository: jabbermouth/blog
+  #     branch: main
+            
 theme:
   name: material
   logo: gfx/jabbermouth-good.png
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.indexes
     - navigation.top
     - navigation.expand
     - navigation.tabs
+    - content.action.view
+    # - content.action.edit
 
   palette: 
     # Palette toggle for light mode
