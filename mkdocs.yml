@@ -6,6 +6,7 @@ plugins:
   - search
   - blog:
       blog_toc: true
+      post_date_format: "d LLLL Y"
   - mermaid2:
       arguments:
         theme: 'dark'
