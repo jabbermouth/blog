@@ -1,6 +1,6 @@
 # Trunk-based development with release branches
 
-***I would no longer advocate this approach, in favour of releasing from trunk directly.  I'll link to an updated article once available.***
+***I would no longer advocate this approach, in favour of releasing from trunk directly.  For my latest thinking, please see my [engineering approach article](2024-04-24-Engineering-approach.md).***
 
 There are many ways to develop software and different ways to use branches within that workflow. This article outlines one such approach which is centred around trunk-based development with release branches to get code out to production.
 
