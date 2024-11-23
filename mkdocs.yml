@@ -61,3 +61,6 @@ extra:
       link: https://github.com/jabbermouth
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/neil-docherty-74bb211/      
+
+extra_css:
+  - css/jabbermouth.css
