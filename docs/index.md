@@ -26,7 +26,7 @@ This "blog" will contain everything from a recommended link all the way through 
 
     Focus on your content and generate a responsive and searchable static site
 
-    [:octicons-arrow-right-24: TDD tutorial...](Technology/Tutorials/2022/2022-12-29-Test-Driven-Development-with-csharp-part-1-introduction-and-setup.md)
+    [:octicons-arrow-right-24: TDD tutorial...](Tutorials/2022/2022-12-29-Test-Driven-Development-with-csharp-part-1-introduction-and-setup.md)
 
 -   :material-lightbulb-on:{ .lg .middle } __Quick tip__
 
@@ -34,7 +34,7 @@ This "blog" will contain everything from a recommended link all the way through 
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Killing a pod...](Technology/Quick%20Tips/2020/2020-11-30-Forcibly-terminating-a-Kubernetes-pod.md)
+    [:octicons-arrow-right-24: Killing a pod...](Quick%20Tips/2020/2020-11-30-Forcibly-terminating-a-Kubernetes-pod.md)
 
 -   :material-cookie:{ .lg .middle } __Recipe__
 
@@ -42,6 +42,6 @@ This "blog" will contain everything from a recommended link all the way through 
 
     Chunky chewy chocolate chip cookies
 
-    [:octicons-arrow-right-24: Chewy cookies...](Recipes/Chunky-chewy-chocolate-chip-cookies.md.md)
+    [:octicons-arrow-right-24: Chewy cookies...](Recipes/Chunky-chewy-chocolate-chip-cookies.md)
 
 </div>

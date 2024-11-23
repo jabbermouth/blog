@@ -194,4 +194,4 @@ You will need to add a project reference from the UI to the Contentful class pro
 
 ## Fourth Test – Blog List Component
 
-In the [next blog article](2022-12-31-Test-Driven-Development-with-csharp-part-4-Blazor-Server-with-bUnit), we’ll build a blog list component and test it using bUnit.
+In the [next blog article](2022-12-31-Test-Driven-Development-with-csharp-part-4-Blazor-Server-with-bUnit.md), we’ll build a blog list component and test it using bUnit.
