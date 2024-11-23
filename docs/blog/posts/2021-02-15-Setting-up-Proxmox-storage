@@ -1,0 +1,65 @@
+---
+title: Setting up Proxmox storage
+description: Setting up Proxmox storage
+date: 2021-02-15
+tags:
+  - Proxmox
+  - Storage
+  - Tutorials
+---
+# Setting up Proxmox storage
+
+These are the steps I took to set up my cluster. I've opted for a 4 disk set up consisting of a boot OS (+ISOs), local VMs (ext4), shared VMs (XFS) and NAS disk. Other than the NAS disk, all drives are NVMe or SSD.
+
+I used Etcher to write the Proxmox ISO to a USB stick and the booted and installed Proxmox with the default settings (other than LAN settings of course, where I wanted specific IPs).
+
+Once installed, I went into the shell and erased the partition details of the two non-NAS drives (replace sdx with the appropriate drive identifier – it could also be nvme0n1 format too):
+
+```bash
+cfdisk /dev/sdx
+```
+
+On one of them, I setup an ext4 partition and formatted it:
+
+```bash
+mkfs -t ext4 /dev/sdx1
+```
+
+Once that was complete, I mounted the drive into Linux by ID. To find the ID, I used the following command (you may need to dig deeper – fortunately all my drives were unique):
+
+```bash
+ls -n /dev/disk/by-id/
+```
+
+You'll need to copy the partition specific ID and then edit the stab file:
+
+```bash
+nano /etc/fstab
+```
+
+And add the following line:
+
+```bash
+/dev/disk/by-id/your-disk-id-part1 /mnt/vm-local ext4 defaults 0 0
+```
+
+Save and exit using control+s and control+q and the mount the drive using:
+
+mount -a
+Next go to the Datacenter and the Storage section of Proxmox and choose the `Add` | `Directory` option. Set the ID to `VM-Local` and the directory to `/mnt/vm-local`
+
+Next, we'll set up a ZFS pool for the remaining disk using the following command (note you'll need to get the ID using the method above):
+
+```bash
+zpool create -f -o ashift=12 vm-shared /dev/disk/by-id/your-disk-id
+```
+
+Once again, go into the Storage section of the Datacenter and choose `Add` | `ZFS`. For the ID use `VM-Shared` and choose `vm-shared` from the ZFS Pool dropdown.
+
+When setting up extra nodes in your cluster, you won't need to do the parts above in the `Datacenter` | `Storage` section as these are automatically inherited for you.
+
+Finally, to add in the NAS drive, create a VM and then run the following command, replacing 1xx with your VM's ID and the drive ID. Note that it's the drive you add and not the partitions.
+
+```bash
+qm set 1xx -sata1 /dev/disk/by-id/your-disk-id
+```

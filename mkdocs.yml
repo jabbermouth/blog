@@ -4,6 +4,8 @@ copyright: Copyright &copy; 2020-2024 Neil Docherty
 
 plugins:
   - search
+  - blog:
+      blog_toc: true
   - mermaid2:
       arguments:
         theme: 'dark'
