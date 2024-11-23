@@ -24,7 +24,7 @@ Once downloaded, we need to edit the file:
 nano ingress-nginx.yaml
 ```
 
-We now need to find the service that handles the ingress so press control+W and search for:
+We now need to find the service that handles the ingress so press ++ctrl+"W"++ and search for:
 
 ```bash
 name: ingress-nginx-controller

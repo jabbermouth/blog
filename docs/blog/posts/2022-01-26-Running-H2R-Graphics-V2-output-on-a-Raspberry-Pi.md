@@ -79,7 +79,7 @@ Replace `h2r.machine.name` with the name of the machine running H2R Graphics V2.
 
 Reboot and confirm
 
-Note, to quit kiosk mode, use Ctrl+F4.
+Note, to quit kiosk mode, use ++ctrl+"F4"++.
 
 ## Dual Screens
 

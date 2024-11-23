@@ -43,7 +43,7 @@ spec:
           class: nginx
 ```
 
-Don't forget to update your email address and then control+s and control+x to save and exit.
+Don't forget to update your email address and then ++ctrl+"s"++ and ++ctrl+"x"++ to save and exit.
 
 Once that's done, we'll create another file called `config.yaml` and save that. Populate it as follows, replacing with your domain in the three necessary places:
 

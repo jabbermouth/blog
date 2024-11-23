@@ -85,7 +85,7 @@ Finally, if you want to log requests, in the Configure method of Startup.cs, bef
 app.UseSerilogRequestLogging();
 ```
 
-If you encounter any missing usings, use control+. and add them as needed.
+If you encounter any missing usings, use ++ctrl+"."++ and add them as needed.
 
 Don't forget to inject and use an ILogger instance of your controllers to log errors, warnings, etc…
 

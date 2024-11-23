@@ -43,7 +43,7 @@ And add the following line:
 /dev/disk/by-id/your-disk-id-part1 /mnt/vm-local ext4 defaults 0 0
 ```
 
-Save and exit using control+s and control+q and the mount the drive using:
+Save and exit using ++ctrl+"s"++ and ++ctrl+"q"++ and the mount the drive using:
 
 mount -a
 Next go to the Datacenter and the Storage section of Proxmox and choose the `Add` | `Directory` option. Set the ID to `VM-Local` and the directory to `/mnt/vm-local`
