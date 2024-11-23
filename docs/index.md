@@ -34,7 +34,7 @@ This "blog" will contain everything from a recommended link all the way through 
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Killing a pod...](Technology/Quick%20Tips/2020-11-30-Forcibly-terminating-a-Kubernetes-pod.md)
+    [:octicons-arrow-right-24: Killing a pod...](Technology/Quick%20Tips/2020/2020-11-30-Forcibly-terminating-a-Kubernetes-pod.md)
 
 -   :material-cookie:{ .lg .middle } __Recipe__
 

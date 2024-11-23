@@ -56,7 +56,7 @@ These branches only come into play when a cherry pick is needed from main to a r
 
 The following example doesn’t highlight origin vs local versions of branches with the assumption being that any local branches are kept up to date. A good approach for this is rebasing the child branch to the parent branch and then, for story branches, using a forced push to origin from local using `git push -f`. If more than one engineer is working on a story branch, this approach will likely cause issues and isn’t recommended. Whilst multiple engineers working on a story is fine, they probably shouldn’t be working on the same story branch (e.g. one does API, one does UI).
 
-![Git branching diagram showing four branches](image.png)
+![Git branching diagram showing four branches](2022-11-12-Trunk-based-development-with-release-branches-01.png)
 
 ## Code Quality and Testing
 
