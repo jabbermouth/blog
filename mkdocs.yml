@@ -20,6 +20,7 @@ plugins:
 
 theme:
   name: material
+  logo: gfx/jabbermouth-good.png
   features:
     - navigation.indexes
     - navigation.top
