@@ -3,6 +3,7 @@ copyright: Copyright &copy; 2020-2024 Neil Docherty
 repo_name: jabbermouth/blog
 repo_url: https://github.com/jabbermouth/blog
 edit_uri: edit/main/docs/
+site_url: !ENV [SITE_URL, http://127.0.0.1:8000]
 
 plugins:
   - search
