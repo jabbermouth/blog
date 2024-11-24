@@ -2,6 +2,8 @@
 
 ## Ingredients
 
+### Cake
+
 - 170g self-raising flour
 - 170g Stork margarine
 - 170g caster sugar
@@ -9,7 +11,7 @@
 - 15ml / tablespoon baking powder
 - 3 eggs
 
-## Icing
+### Icing
 
 - 125g icing sugar
 - Several drops of vanilla essence
@@ -18,7 +20,7 @@
 - 2 drops red food colouring (extra drop may be needed)
 - Orange extract (2.5ml)
 
-## Buttercream
+### Buttercream
 
 - 175g icing sugar
 - 75g Stork margarine
@@ -40,5 +42,5 @@
 11. For icing: Mix icing sugar, water, vanilla essence and colouring until paste is formed – spread evenly over top of cake and, if desired, sprinkle with decorations like hundreds and thousands
 12. Put two cake halves together
 
-## Cupcakes
+### Cupcakes
 Mixture should make 24 cupcakes.  Reduce cooking time to 14 minutes.  For buttercream icing, above instructions will produce right amount.  For glace icing, add 50% to above.
