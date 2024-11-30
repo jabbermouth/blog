@@ -1,7 +1,7 @@
 ---
 title: Add route for split VPN
 description: Adding an additional route to a VPN connection in Windows 11
-date: 2021-02-19
+date: 2024-11-30
 categories:
   - VPN
   - Quick Tips

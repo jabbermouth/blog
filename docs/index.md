@@ -16,9 +16,9 @@ This "blog" will contain everything from a recommended link all the way through 
 
     ---
 
-    The journey that is my career
+    How to add an additional route to a VPN connection in Windows 11
 
-    [:octicons-arrow-right-24: My career journey...](blog/posts/2024-07-31-The-journey-that-is-my-career.md)
+    [:octicons-arrow-right-24: Additional split VPN route...](blog/posts/2024-11-30-Add-route-for-split-VPN.md)
 
 -   :material-test-tube:{ .lg .middle } __TDD with Blazor and bUnit__
 
