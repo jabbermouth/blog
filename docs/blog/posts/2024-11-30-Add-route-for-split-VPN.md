@@ -17,6 +17,7 @@ Add-VpnConnectionRoute -Name '<Split VPN Name>' -DestinationPrefix <123.45.67.89
 ```
 
 Where:
+
 - `<Split VPN Name>` is the name of the VPN connection you wish to add the route to
 - `<123.45.67.89>` is the IP address you wish to route over the VPN rather than via your default gateway/normal internet connection
 
