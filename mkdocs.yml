@@ -37,6 +37,7 @@ theme:
     - navigation.top
     - navigation.expand
     - navigation.tabs
+    - content.code.copy
     - content.action.view
     # - content.action.edit
 
