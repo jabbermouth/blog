@@ -118,8 +118,8 @@ Note that you will likely need to run the line `Install-Module jwtPS -force` in 
 To test this, you will need a service you can point at in your cluster with a label of `type` set to `api`. Don’t forget to update URLs as needed.
 
 ```powershell
-$TOKEN = your.base64.encoded.jwt
-curl --header https://example.com/api/v1/test
+$TOKEN = jwt_from_previous_script
+curl https://example.com/api/v1/test
 curl --header "Authorization: Bearer $TOKEN" https://example.com/api/v1/test
 ```
 
