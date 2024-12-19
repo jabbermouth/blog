@@ -122,9 +122,9 @@ I started my current role in early October 2022 and I’ve been loving it. The t
 
 It’s now July 2024 and several things have changed at my current employer. I’ve had two changes of role following the departure of my team lead and other department reorganisations. My main project also started – R&D in December 2022 and proper in May 2023 which the first client-facing infrastructure going out in Q2 of 2024.
 
-The size of the technology team at the company is much larger than previous employers I’ve worked for with approaching 100 people. Several key functions such as “DevOps” (pipelines, etc…) and infrastructure are split into different teams which produces some technical silos that can prove both frustrating and limiting. Work is being done to address this but it is a slow process of change.
+The size of the technology team at the company is much larger than previous employers I’ve worked for with approaching 100 people. Several key functions such as “DevOps” (pipelines, etc…) and infrastructure are split into different teams which produces some technical silos that are common in larger companies. Fortunately, work is being done to help address these silos with better integration of the technical teams.
 
-Whilst I’ve gained the exposure to Azure and Terraform that I’d been looking for in switching roles (twice!), the day-to-day is not what I’m looking for and there’s not the sense of ownership I’ve been used to. I feel my skills and personality sit better in a smaller technology team – nearer 10 than 100. Also, and not something I thought I’d be saying, I am missing some of the physical interactions of being in the office. Unfortunately my current office is 1½ -2 hours away so it’s not time or cost efficient to go in more regularly so my current employer isn’t an option if I’d like to increase my office time.
+Whilst I’ve gained the exposure to Azure and Terraform that I’d been looking for in switching roles (twice!), I've not had the sense of ownership I’ve been used to. Something I didn't think I’d be saying, I am missing some of the physical interactions of being in the office. Unfortunately my current office is 1½ - 2 hours away so it’s not time or cost efficient to go in more regularly.
 
 ## Final Thoughts
 

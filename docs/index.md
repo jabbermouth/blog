@@ -24,7 +24,7 @@ This "blog" will contain everything from a recommended link all the way through 
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    A simple introduction to Test Driven Development with Blazor and bUnit
 
     [:octicons-arrow-right-24: TDD tutorial...](blog/posts/2022-12-29-Test-Driven-Development-with-csharp-part-1-introduction-and-setup.md)
 
@@ -32,7 +32,7 @@ This "blog" will contain everything from a recommended link all the way through 
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    How to kill a pod in Kubernetes when it appears to be stuck "Terminating"
 
     [:octicons-arrow-right-24: Killing a pod...](blog/posts/2020-11-30-Forcibly-terminating-a-Kubernetes-pod.md)
 
