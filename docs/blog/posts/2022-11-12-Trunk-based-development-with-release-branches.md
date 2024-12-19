@@ -133,7 +133,7 @@ Ideally, especially when running automated testing, these should be run against 
 
 ## Pipelines
 
-A key part of any CI/CD setup is the pipeline(s) used to build and deploy the application. My prefferred approach is a templated one as it helps:
+A key part of any CI/CD setup is the pipeline(s) used to build and deploy the application. My preferred approach is a templated one as it helps:
 
 - Minimise repetition
 - Allow for a single application configuration file

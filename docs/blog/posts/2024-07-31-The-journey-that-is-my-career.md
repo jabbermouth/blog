@@ -94,10 +94,11 @@ Over the summer of 2021, my manager, who had also been a big supporter of the wo
 
 These changes resulted in a few conclusions/realisations for me:
 
-My (management) career within the company had stalled with no realistic path forward without others leaving
-My salary was rapidly approaching the ceiling for my grade and having seen an, on average, below inflation rise over the past few years was, in real terms, falling
-Progression in a technical role wasn’t really possible after a certain level – a level I’d already passed
-My role, due to team structure changes, had been devalued in my opinion with a key part of the development process moved into another team
+- My (management) career within the company had stalled with no realistic path forward without others leaving
+- My salary was rapidly approaching the ceiling for my grade and having seen an, on average, below inflation rise over the past few years was, in real terms, falling
+- Progression in a technical role wasn’t really possible after a certain level – a level I’d already passed
+- My role, due to team structure changes, had been devalued in my opinion with a key part of the development process moved into another team
+
 It was at this point I decided I had to go – I was “piggy in the middle” with reduced autonomy and job satisfaction had dwindled significantly, some overnight but some steadily over the previous year or two. A subsequent change a few months later further devalued my role although, in that case, I do believe this change was a good choice for the affected sub team’s efficiency, it just didn’t help me.
 
 I actually wondered, given how my role was changed, if management were trying to phase out my role (and me therefore!) after a current long running project completed, scheduled for mid-2022 although realistically it would be sometime in 2023. Whilst I never had any confirmation of this, it does illustrate how I felt my position at the company was.
