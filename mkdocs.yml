@@ -86,9 +86,9 @@ extra:
 extra_css:
   - css/jabbermouth.css
 
-nav:
-  - Neil's Whiteboard: index.md
-  - Tutorials: blog/category/tutorials/
-  - Quick Tips: blog/category/quick-tips/
-  - Blog: blog/
-  - Recipes: Recipes/
+# nav:
+#   - Neil's Whiteboard: index.md
+#   - Tutorials: blog/category/tutorials/
+#   - Quick Tips: blog/category/quick-tips/
+#   - Blog: blog/
+#   - Recipes: Recipes/
