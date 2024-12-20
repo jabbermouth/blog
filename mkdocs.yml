@@ -7,6 +7,8 @@ site_url: !ENV [SITE_URL, http://127.0.0.1:8000]
 
 plugins:
   - search
+  - social:
+      enabled: !ENV [CI, false]
   - blog:
       blog_toc: true
       post_date_format: "d LLLL Y"
@@ -83,3 +85,10 @@ extra:
 
 extra_css:
   - css/jabbermouth.css
+
+nav:
+  - Neil's Whiteboard: index.md
+  - Tutorials: blog/category/tutorials/
+  - Quick Tips: blog/category/quick-tips/
+  - Blog: blog/
+  - Recipes: Recipes/
