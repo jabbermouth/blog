@@ -121,11 +121,11 @@ I started my current role in early October 2022 and I’ve been loving it. The t
 
 ## 2024 Update
 
-It’s now July 2024 and several things have changed at my current employer. I’ve had two changes of role following the departure of my team lead and other department reorganisations. My main project also started – R&D in December 2022 and proper in May 2023 which the first client-facing infrastructure going out in Q2 of 2024.
+It’s now December 2024 and several things have changed at my current employer. I’ve had two changes of role following the departure of my team lead and other department reorganisations. My main project also started – R&D in December 2022 and proper in May 2023.  This saw the first client-facing infrastructure going out in Q2 of 2024.
 
-The size of the technology team at the company is much larger than previous employers I’ve worked for with approaching 100 people. Several key functions such as "DevOps" (pipelines, etc…) and infrastructure are covered by different teams which can obviously produce some technical silos; something that is common in larger companies. Fortunately, work is being done to help address these silos to get better integration of the technical teams.
+The size of the technology team at the company is much larger than previous employers I’ve worked for (approximately 100 people) so several key functions such as "DevOps" (pipelines, etc…) and infrastructure are covered by different teams.  This does lead to a narrower area of work that is often the case with a DevOps role.  Fortunately the project did allow me to in both of these areas as the company moves to greater use of IaC and Terraform.
 
-Whilst I’ve gained the exposure to Azure and Terraform that I’d been looking for in switching roles (twice!), I've not always had the same sense of ownership I’ve been used to - bigger pond and all that - but the state of play is an evolving one. Something I didn't think I’d be saying is that, at times, I am missing some of the physical interactions of being in the office. Unfortunately my current office is 1½ - 2 hours away so it’s not time or cost efficient to go in more regularly however I do try to make sure that some of that "water cooler" chat is still happening, albeit via Teams.
+Whilst I’ve gained the exposure to Azure and Terraform that I’d been looking for in switching roles (twice!), I've not always had the same sense of ownership I’ve been used to - bigger pond and all that - but the state of play is an evolving one and hopefully 2025 will see greater ownership. Something I didn't think I’d be saying is that, at times, I am missing some of the physical interactions of being in the office. Unfortunately my current office is 1½ - 2 hours away so it’s not time or cost efficient to go in more regularly.  I do try to make sure that some of those casual chats are still happening, albeit via Teams during catch ups with my direct reports.
 
 ## Final Thoughts
 
