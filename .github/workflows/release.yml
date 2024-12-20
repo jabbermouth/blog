@@ -49,7 +49,8 @@ jobs:
           # pip install mkdocs-git-committers-plugin-2
           # pip install mkdocs-git-authors-plugin
 
-          apt-get install pngquant
+          sudo apt update
+          sudo apt install pngquant -y
 
       - name: Tag and Create Release
         shell: pwsh
