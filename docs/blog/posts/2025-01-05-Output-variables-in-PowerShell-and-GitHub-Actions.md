@@ -51,7 +51,6 @@ jobs:
         $ErrorActionPreference = "Stop" # not required but I always include it so errors don't get missed
 
         Write-Host "Values received were `"$($env:VALUE_TO_USE_1)`" and `"$($env:VALUE_TO_USE_2)`""
-
 ```
 
 Whilst both examples use PowerShell, there is no requirement that both steps use the same shell.
