@@ -1,7 +1,7 @@
 ---
 title: Delete a tag in ACR using CLI
 description: How to delete a tag from an Azure Container Registry repository using the Azure CLI
-date: 2025-01-05
+date: 2025-01-24
 categories:
   - Azure Container Registry
   - Azure
