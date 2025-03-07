@@ -6,7 +6,7 @@ categories:
   - Docker
   - Kubernetes
   - Metrics Server
-  - Helms
+  - Helm
   - Quick Tips
 ---
 # Install Metrics Server into Kubernetes running in Docker Desktop using Helm
