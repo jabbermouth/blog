@@ -44,4 +44,11 @@ This "blog" will contain everything from a recommended link all the way through 
 
     [:octicons-arrow-right-24: Chewy cookies...](Recipes/Chunky-chewy-chocolate-chip-cookies.md)
 
+-   :material-account-outline:{ .lg .middle } __Personal__
+
+    ---
+
+    Teeth straightening journey
+
+    [:octicons-arrow-right-24: Teeth straightening...](blog/posts/2025-05-05-Teeth-straightening.md)
 </div>
