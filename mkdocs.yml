@@ -92,3 +92,6 @@ extra_css:
 #   - Quick Tips: blog/category/quick-tips/
 #   - Blog: blog/
 #   - Recipes: Recipes/
+
+not_in_nav: |
+  /cat-sitting.md
