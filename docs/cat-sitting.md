@@ -4,23 +4,17 @@
 
 ### Friday
 
-#### Afternoon
-
-Around 1pm would be good.
-
-#### Night
-
-Just before you leave
+- Afternoon
+    - Around 1pm would be good.
+- Evening/Night
+    - Just before you leave
 
 ### Saturday
 
-#### Breakfast
-
-Any time after 7am and ideally less than 12 hours after the previous night’s feeding.
-
-#### Evening
-
-Around 5-6pm would be good.
+- Breakfast
+    - Any time after 7am and ideally less than 12 hours after the previous night’s feeding.
+- Evening
+    - Around 5-6pm would be good.
  
 ## Each Visit
 
