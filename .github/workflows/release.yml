@@ -46,6 +46,7 @@ jobs:
           pip install mkdocs-mermaid2-plugin
           pip install mkdocs-git-revision-date-localized-plugin
           pip install "mkdocs-material[imaging]"
+          pip install mkdocs-exclude-search
           # pip install mkdocs-git-committers-plugin-2
           # pip install mkdocs-git-authors-plugin
 
